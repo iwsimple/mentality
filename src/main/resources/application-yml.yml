@@ -1,0 +1,20 @@
+server:
+  port: 6402
+
+spring:
+  application:
+    name: mentality
+  datasource:
+    username: root
+    password: 123456
+    url: http://localhost:3306/SCM?characterEncoding=utf8&useSSL=false&rewriteBatchedStatements=true&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+logging:
+  level:
+    root: info
+    com:
+      qc:
+        mentality: info
+  file:
+    name: /data/log/${spring.application.name}.log
