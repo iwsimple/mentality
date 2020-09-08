@@ -1,0 +1,60 @@
+.product_container{
+    position: relative;
+    margin-bottom: 15px;
+    height: 440px;
+}
+.catalog_left{
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 1px solid #e6e6e6;
+    width: 180px;
+    height: 100%;
+    overflow: auto;
+}
+.search_center{
+    padding: 15px 15px 0 15px;
+    border: 1px solid #e6e6e6;
+    margin:0 170px 0 190px;
+    height: 100%;
+    width: auto;
+}
+.product_right{
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 1px solid #e6e6e6;
+    height: 100%;
+    width: 160px;
+    overflow: auto;
+}
+.block_row_overflow{
+    height: 400px!important;
+    margin-bottom: 10px;
+    margin-top: 0!important;
+}
+
+/*隐藏+/-号*/
+.ztree li span.button.switch {
+    width: 0;
+    height: 0;
+}
+.ztree li .button.switch {
+    visibility: hidden;
+    width: 1px;
+}
+
+.ztree li .button.switch.roots_docu {
+    visibility: visible;
+    width: 16px;
+}
+
+.ztree li .button.switch.center_docu {
+    visibility: visible;
+    width: 16px;
+}
+
+.ztree li .button.switch.bottom_docu {
+    visibility: visible;
+    width: 16px;
+}
